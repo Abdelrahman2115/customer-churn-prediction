@@ -1,0 +1,35 @@
+{
+  "model": "Hist Gradient Boosting",
+  "best_params": {
+    "l2_regularization": 5.0,
+    "learning_rate": 0.03,
+    "max_leaf_nodes": 7,
+    "min_samples_leaf": 50
+  },
+  "cv_roc_auc_mean": 0.849439888858392,
+  "cv_roc_auc_std": 0.011867047603061143,
+  "test_at_default_threshold": {
+    "roc_auc": 0.8485093905810018,
+    "pr_auc": 0.6636327653912822,
+    "accuracy": 0.751596877217885,
+    "precision": 0.5207612456747405,
+    "recall": 0.8048128342245989,
+    "f1": 0.6323529411764706,
+    "threshold": 0.5
+  },
+  "test_at_tuned_threshold": {
+    "roc_auc": 0.8485093905810018,
+    "pr_auc": 0.6636327653912822,
+    "accuracy": 0.7771469127040455,
+    "precision": 0.5604838709677419,
+    "recall": 0.7433155080213903,
+    "f1": 0.639080459770115,
+    "threshold": 0.5738342729366763
+  },
+  "test_churners_captured_top20pct": 0.5133689839572193,
+  "test_churn_rate": 0.2654364797728886,
+  "n_train": 5634,
+  "n_test": 1409,
+  "random_state": 42,
+  "sklearn_version": "1.9.1"
+}

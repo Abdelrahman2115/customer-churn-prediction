@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated predictions (re-create with `python -m src.predict`)
+reports/predictions.csv
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+
+# Files the notebook creates when run from notebooks/
+notebooks/figures/
+notebooks/churn_model.joblib
